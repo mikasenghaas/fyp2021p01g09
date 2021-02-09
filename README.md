@@ -11,12 +11,12 @@ In this project, we have completed tasks similar to data scientists working for 
 - Involving self-obtained external data sets in the analysis
 
 ### TODOs
-- [ ] Clone Repo on everyone's local machine and introduce to collaborating on git
-- [ ] Make Plan on how to move on
+- [x] Clone Repo on everyone's local machine and introduce to collaborating on git
 - [x] Fix Bug of Missing Values 
-- [ ] Add Docstrings to all Functions
-- [ ] Comment out Code
-- [ ] Visualise Dates and Times (One Plot for Monthly Distribution, One Plot for )
+- [ ] Go through all Figures and search for bugs
+- [ ] Add Docstrings to all functions and comment code (Mika)
+- [ ] Visualise monthly frequency of accidents
 - [x] Make Numerical Histogram Report (and numerical report to compute key metrics) for numerical values (such as age distribution)
 - [ ] Implement Text Wrapping for nicer looking plots
 - [ ] Maybe have a look at spatial data science (visualisation of geographic data)
+- [ ] Start with Assocations (What relationships will be most interesting? namely accident circumstances to either vehicle attribute or casualty attribute) e.g most fatal combination
