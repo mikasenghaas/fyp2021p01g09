@@ -9,3 +9,14 @@ In this project, we have completed tasks similar to data scientists working for 
 - Investigating possible statistical associations by filtering for a variety of attributes
 - Visualizing the data on a map
 - Involving self-obtained external data sets in the analysis
+
+### TODOs
+[ ] Clone Repo on everyone's local machine and introduce to collaborating on git
+[ ] Make Plan on how to move on
+[x] Fix Bug of Missing Values 
+[ ] Add Docstrings to all Functions
+[ ] Comment out Code
+[ ] Visualise Dates and Times (One Plot for Monthly Distribution, One Plot for )
+[ ] Make Numerical Histogram Report (and numerical report to compute key metrics) for numerical values (such as age distribution)
+[ ] Implement Text Writing for nicer looking plots
+[ ] Maybe have a look at spatial data science (visualisation of geographic data)
