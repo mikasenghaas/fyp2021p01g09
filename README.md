@@ -18,6 +18,6 @@ In this project, we have completed tasks similar to data scientists working for 
 - [ ] Add Docstrings to all functions and comment code (Mika)
 - [ ] Visualise monthly frequency of accidents
 - [x] Make Numerical Histogram Report (and numerical report to compute key metrics) for numerical values (such as age distribution)
-- [ ] Implement Text Wrapping for nicer looking plots
-- [ ] Maybe have a look at spatial data science (visualisation of geographic data)
+- [x] Implement Text Wrapping for nicer looking plots
+- [x] Maybe have a look at spatial data science (visualisation of geographic data)
 - [ ] Start with Assocations (What relationships will be most interesting? namely accident circumstances to either vehicle attribute or casualty attribute) e.g most fatal combination
