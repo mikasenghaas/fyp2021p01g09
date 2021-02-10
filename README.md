@@ -13,6 +13,7 @@ In this project, we have completed tasks similar to data scientists working for 
 ### TODOs
 - [x] Clone Repo on everyone's local machine and introduce to collaborating on git
 - [x] Fix Bug of Missing Values 
+- [x] Implement Sanity Check
 - [ ] Go through all Figures and search for bugs
 - [ ] Add Docstrings to all functions and comment code (Mika)
 - [ ] Visualise monthly frequency of accidents
