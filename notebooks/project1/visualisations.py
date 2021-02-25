@@ -258,7 +258,7 @@ def categorical_association_test(data, marker_variable_summary, marker_data, rel
     chiVal, pVal, df, expected.astype(int)
     V = np.sqrt( (chiVal / observed.sum() ) / (min(observed.shape)-1) )
 
-    fig, axes = plt.subplots(nrows=2, ncols=len(np.unique(data1)), figsize=(32, 16), constrained_layout=True)
+    fig, axes = plt.subplots(nrows=2, ncols=len(np.unique(data1)), figsize=(16, 9), constrained_layout=True)
     fig.suptitle(f"Association of {name1.replace('_', ' ')} and {name2.replace('_', ' ')} (chiVal: {round(chiVal, 2)}, pVal: {round(pVal, 2)}, V: {round(V, 2)})", fontweight='bold', fontsize=16)
     
 
