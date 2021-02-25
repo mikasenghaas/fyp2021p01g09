@@ -28,8 +28,8 @@ def initialise_summary(data, lookup, dataset_name, key, summary, labels, plottin
 
     # initialise the lookup dictionary with the column name and variable type
     summary[key] = {}
-    for i in range(data[dataset_name].shape[1]):
-        summary[key][i] = {'Name': list(data[dataset_name])[i]}
+    for i in range(data.shape[1]):
+        summary[key][i] = {'Name': list(data)[i]}
         if plotting[i] == 'bar':
             summary[key][i].update({'Plot': 'bar'})
         elif plotting[i] == 'hist':

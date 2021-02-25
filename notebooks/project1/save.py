@@ -115,7 +115,7 @@ def save_all_categorical_scatters(data, summary, severity, path):
     """
     for i in range(len(summary)):
         if summary[i]['Plot'] == 'hist':
-                fig = categorical_scatterplot(summary[6], severity[dataset], summary[i], data.iloc[:,i], _exclude=0, _kind='svarm') # catch errors when scatter cannot be computed
+                fig = categorical_scatterplot(summary[6], severity, summary[i], data.iloc[:,i], _exclude=0, _kind='svarm') # catch errors when scatter cannot be computed
 
                 spath = path 
                 save_figure(fig, spath, filename=f"scatter_{i}_{summary[i]['Name']}", save_to='pdf')
@@ -133,7 +133,7 @@ def save_all_categorical_associations(data, dataset_name, summary, severity, pat
     for i in range(len(summary)):
             try: 
                 if summary[i]['Map']: # local authority highway and local authority district 
-                    fig, V = categorical_association_test(data, summary[6], severity[dataset_name], summary[i], data.iloc[:,i])
+                    fig, V = categorical_association_test(data, summary[6], severity, summary[i], data.iloc[:,i])
 
                     spath = path 
                     save_figure(fig, spath, filename=f"chi2_{V}_{i}_{summary[i]['Name']}", save_to='pdf')
