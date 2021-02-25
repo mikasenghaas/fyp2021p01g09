@@ -2,7 +2,7 @@
 ---
 Group 9: Aidan Stocks, Christian Margo Hansen, Jonas-Mika Senghaas, Malthe Rødsgaard Pabst Lauridsen, Rasmus Bondo Hansen
 
-### Project Description
+## Project Description
 In this project, we have completed tasks similar to data scientists working for a department of transport or a city government, to inform city leaders about traffic fatalities and injuries, and give insights for urban transport planning. We have explored and analysedthe latest data records of all recorded road collisions in Great Britain in the year 2019 provided by the UK Department of Transport with detailsabout the circumstances of personal injury. The major parts of the project are:
 - Exploring and transforming the data, making numericaland visual reports
 - Connecting data tables (accidents, vehicles, casualties)
@@ -10,14 +10,16 @@ In this project, we have completed tasks similar to data scientists working for 
 - Visualizing the data on a map
 - Involving self-obtained external data sets in the analysis
 
-### TODOs
-- [x] Clone Repo on everyone's local machine and introduce to collaborating on git
-- [x] Fix Bug of Missing Values 
-- [x] Implement Sanity Check
-- [ ] Go through all Figures and search for bugs
-- [ ] Add Docstrings to all functions and comment code (Mika)
-- [ ] Visualise monthly frequency of accidents
-- [x] Make Numerical Histogram Report (and numerical report to compute key metrics) for numerical values (such as age distribution)
-- [x] Implement Text Wrapping for nicer looking plots
-- [x] Maybe have a look at spatial data science (visualisation of geographic data)
-- [ ] Start with Assocations (What relationships will be most interesting? namely accident circumstances to either vehicle attribute or casualty attribute) e.g most fatal combination
+## Background and Motivation
+Promoting the use of cycling, walking, and public transportation as a means to navigate the city is part of the city ofLeeds’ plan to achieve being carbon neutral by 2030. The potential benefits of embracing, and advocating for, the widespread useof these means of transportation also extends towards increased road safety. With Leeds being the 9th most congested city in thewhole of UK, the local authorities need to take action to develop a future-proof urban mobility plan. This report sets the statisticalfoundation for data-driven policy to make the city greener and safer.
+
+## Some Visualisations of the Project
+### Spatial Visualisation
+Whole of Leeds            |  Urban Area |  Specific Accident Inspection
+:-------------------------:|:-------------------------:|:-------------------------:
+![map](contents_readme/map_1.png)   | ![map](contents_readme/map_2.png) | ![map](contents_readme/map_3.png) 
+
+### Statistical Analysis 
+Example of Association (Pearson Chi Squared Test)            |  Example of Single Variable Analysis (Accident Frequency)
+:-------------------------:|:-------------------------:
+![association](contents_readme/association_severity_sex.png)   | ![sva](contents_readme/day_of_week.png)
