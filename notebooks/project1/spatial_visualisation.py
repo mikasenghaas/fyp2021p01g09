@@ -3,7 +3,7 @@ import numpy as np
 import folium                                         
 from folium.plugins import HeatMap, MarkerCluster
 
-def plot_point(_map, _location, _popup, _color, _fill=True):
+def plot_marker(_map, _location, _popup, _color, _fill=True):
     """
     For a given map, the function plots a folium.CircleMaker at the specified location, with specified popup information and a specified color.
 
@@ -76,7 +76,7 @@ def map_accidents(data, summary, centroid, colors='random', heat_map=True, marke
 
             for j in range(no_uniques):
                 if data[focus].iloc[i] == uniques[j]:
-                    plot_point(
+                    plot_marker(
                         marker_cluster, 
                         _location=(data['Latitude'].iloc[i], data['Longitude'].iloc[i]), 
                         _popup = labels,
@@ -97,7 +97,7 @@ def map_accidents(data, summary, centroid, colors='random', heat_map=True, marke
 
             for j in range(no_uniques):
                 if data[focus].iloc[i] == uniques[j]:
-                    plot_point(
+                    plot_marker(
                         accidents, 
                         _location=(data['Latitude'].iloc[i], data['Longitude'].iloc[i]), 
                         _popup = labels,

@@ -234,6 +234,7 @@ def categorical_association_test(data, marker_variable_summary, marker_data, rel
     Parameter:
         data                                  : pd.DataFrame (central data structure to hold information about all columns in dataset)
         marker_variable_summary               : dict (SUMMARY of column for which we want to observe associativity)
+        marker_data                           : np.array or pd.DataFrame
         relational_variable_summary           : dict (SUMMARY of related column)
     Return: 
         fig                                   : matplotlib.Figure 
@@ -242,8 +243,15 @@ def categorical_association_test(data, marker_variable_summary, marker_data, rel
     name1, name2 = marker_variable_summary['Name'], relational_variable_summary['Name']
     data1, data2 = marker_data, relational_data
 
+    #mask out missing data
+    data_to_plot = np.array([data1, data2]).T
+    
+    # masking
+    without_missing_values = (data_to_plot[:,0] > -1) & (data_to_plot[:,1] > -1) # we first mask out all data records where either of the two observed attributes has missing values
+    data_to_plot = data_to_plot[without_missing_values]
+
     # crosstab
-    observed_pd = pd.crosstab(data1, data2, rownames = [name1], colnames = [name2]).T
+    observed_pd = pd.crosstab(data_to_plot[:,0], data_to_plot[:,1], rownames = [name1], colnames = [name2]).T
     observed = observed_pd.to_numpy()
 
     chiVal, pVal, df, expected = chi2_contingency(observed)
@@ -254,8 +262,8 @@ def categorical_association_test(data, marker_variable_summary, marker_data, rel
     fig.suptitle(f"Association of {name1.replace('_', ' ')} and {name2.replace('_', ' ')} (chiVal: {round(chiVal, 2)}, pVal: {round(pVal, 2)}, V: {round(V, 2)})", fontweight='bold', fontsize=16)
     
 
-    labels1 = [marker_variable_summary['Map'][i] for i in np.unique(data1)]
-    labels2 = [relational_variable_summary['Map'][int(i)] for i in np.unique(data2)]
+    labels1 = [marker_variable_summary['Map'][i] for i in np.unique(data_to_plot[:,0])]
+    labels2 = [relational_variable_summary['Map'][int(i)] for i in np.unique(data_to_plot[:,1])]
     x = np.array(labels2)
 
     for i, ax in enumerate(axes[0]):

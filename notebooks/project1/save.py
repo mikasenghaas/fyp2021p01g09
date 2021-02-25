@@ -120,7 +120,7 @@ def save_all_categorical_scatters(data, summary, severity, path):
                 spath = path 
                 save_figure(fig, spath, filename=f"scatter_{i}_{summary[i]['Name']}", save_to='pdf')
 
-def save_all_categorical_associations(data, dataset_name, summary, severity, path):
+def save_all_categorical_associations(data, severity_summary, dataset_name, summary, severity, path):
     """
     Function to save all association plots between two categorical variables for a given dataset automatically into a specified (relative) path. Filenames are generated automatically. Displays inline in Jupyter when called without additional parameters. Use %%capture to prevent inline     plotting
 
@@ -133,11 +133,13 @@ def save_all_categorical_associations(data, dataset_name, summary, severity, pat
     for i in range(len(summary)):
             try: 
                 if summary[i]['Map']: # local authority highway and local authority district 
-                    fig, V = categorical_association_test(data, summary[6], severity, summary[i], data.iloc[:,i])
+                    fig, V = categorical_association_test(data, severity_summary[6], severity, summary[i], data.iloc[:,i])
 
                     spath = path 
                     save_figure(fig, spath, filename=f"chi2_{V}_{i}_{summary[i]['Name']}", save_to='pdf')
             except: None
+
+# save_all_categorical_associations(data = DATA_LEEDS[dataset], severity_summary=SUMMARY['accidents'][6], dataset_name=dataset, summary=SUMMARY[dataset], severity= SEVERITY[dataset], path=PATH['reports']['leeds'] + PATH[dataset] + 'associations/')
 
 def save_map(_map, path, filename):
     """
