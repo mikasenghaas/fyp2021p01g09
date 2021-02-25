@@ -1,0 +1,492 @@
+commit c520acba87989c723eedc4dea3ad047749e90eb6
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 22:41:01 2021 +0100
+
+    Add Report
+
+commit c90dfa6cf60481e9957ee9f95bc535a4d03ad552
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 22:34:17 2021 +0100
+
+    Add README Contents
+
+commit 1d3bd9b153001a0a1d793c28b79bcb1e176b0b56
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 22:33:26 2021 +0100
+
+    Slight Change to Map Visualisation + Rename of Files
+
+commit 0828f6d37ae4b142f0419146b28d8fee6f322139
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 22:32:25 2021 +0100
+
+    Update README
+
+commit a830b7b6eb42d88911591b3b7bb9ab653a5a7650
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 17:41:40 2021 +0100
+
+    Changed `figsizes` and minor touch ups
+
+commit 1663a4baf6e331b1c2990cf8d40b6a89d2682a68
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 16:29:27 2021 +0100
+
+    Bugfix in Associations, Slight Redo of Maps
+
+commit b2aef57c11ab8bb1cb814f80f4ecf14f4edd7a88
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 12:01:32 2021 +0100
+
+    Implemented Association for Bikes, General Touch Up
+
+commit 3f40477d57edd3b4d6e95ec44922b3ce31b019a9
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 10:14:40 2021 +0100
+
+    Extracted Functions into Python Package
+
+commit 0541827eb4ea929b29fb678fb33d3969f0194109
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 08:13:15 2021 +0100
+
+    Investigate Accident Participants Pattern and Filtering in Bikes
+
+commit c97d73eb1b883d8c9c135a2c3d1f9d8e9eced86e
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 24 19:49:06 2021 +0100
+
+    Implemented Maps for Leeds and Bikes_Leeds
+
+commit 8c993677cd39869718a3aa3f056b757ff383be36
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 24 19:48:46 2021 +0100
+
+    Slight Adjustments to SVA Plots
+
+commit c3f60863bcdf064cc92e8d5c33636387bc13d710
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 24 18:30:34 2021 +0100
+
+    New Associations, Touch Up, HeatMap and MarkerCluster
+
+commit cf19db9cf87ca774ea7e8117297a2df8d7c2cb3f
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 22 12:00:24 2021 +0100
+
+    Implemented SVA and Associations on Bike Data
+
+commit f7e1551c019f429eed61f8a648027b4ce3f86472
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 22 10:18:50 2021 +0100
+
+    Implemented on first external dataset
+
+commit 72be91d7a47c47c470d0092d92bdadf4ce3a3a5e
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 21 22:50:20 2021 +0100
+
+    Improved Associations Plots
+
+commit 7e4d446b3205305b2781427a28805a3f22230c76
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 21 20:29:43 2021 +0100
+
+    Updated Saving Behavior of Numerical Summaries
+
+commit ab4844b2a3e7e731a7dab649f1be48f95ee721f4
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 21 12:30:43 2021 +0100
+
+    Implemented Categorical Scatterplots
+
+commit bffae67e25c2ec40b6d542e40a391dd5aee5c57d
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 21 11:03:48 2021 +0100
+
+    Changes to Saving Behavior
+
+commit a43237b822096c7e8485f13fad9f9bd3ef5fd4f3
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 21 11:03:33 2021 +0100
+
+    Creating own Function Package
+
+commit 2525ea32e5611c7e082a2531c872da16276eda5e
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 21 11:02:55 2021 +0100
+
+    Merged Contents into single Jupyter
+
+commit 629be1356d0ee05075d13429e1015f410db38e76
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 12 18:00:21 2021 +0100
+
+    Cleared Output and Improved Sanity Check
+
+commit 567f97e45503695d9308148680365a0e9e366fd8
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 12 17:05:15 2021 +0100
+
+    Code Refactoring
+
+commit e820bad8cbbb60e22486c7628e06bf07c1bcde73
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 11 14:54:41 2021 +0100
+
+    Implemented FiveNum Summary, Boxplots, Monthly Distribution
+
+commit f08a114b5cf996bbbad907f8f89d7501299ed70e
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 11 12:12:13 2021 +0100
+
+    Processed Date and 2nd_Road_Class
+
+commit 42f0a51ec5191bcafc90060108c37330087b1723
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 10 19:20:34 2021 +0100
+
+    Implemented Text Wrapping in Plots
+
+commit 7c2b078a58583de9d188c7b3e983dc2f61cb702d
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 10 18:44:48 2021 +0100
+
+    Fixed Bug of Wrong Mapping
+
+commit 157af7f743cfad75af2899a244d81f81c42a9351
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 10 18:27:06 2021 +0100
+
+    Edit TODO, Delete Checkpoint and cleared ouput
+
+commit b249fe20137a6380c3b23dbb7e24ffa85a73329a
+Merge: 18bb0ef d1945d2
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 10 18:21:41 2021 +0100
+
+    Merge pull request #3 from jonas-mika/Check-for-ID
+    
+    Looks good.
+
+commit d1945d20daa41d9314d054210d4e45c72aae1113
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 10 18:16:17 2021 +0100
+
+    Implemented thorough Sanity Check Procedure on Raw/ Filtered Data
+
+commit 9f1aeae37d4cffa72352cb6bfa24b4ce5b45c826
+Merge: fcc05bf 8810d44
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Wed Feb 10 16:28:59 2021 +0100
+
+    Merge branch 'spatial_viz' of https://github.com/jonas-mika/fyp_project1 into Check-for-ID
+
+commit fcc05bff1a193dd06273fdb570ef9b269244bd82
+Author: malt1114 <78759655+malt1114@users.noreply.github.com>
+Date:   Wed Feb 10 13:44:33 2021 +0100
+
+    Update data_processing.ipynb
+
+commit 35b8765cd2d80709465eeebb40389757e5c27212
+Author: malt1114 <78759655+malt1114@users.noreply.github.com>
+Date:   Wed Feb 10 13:44:28 2021 +0100
+
+    Create data_processing-checkpoint.ipynb
+
+commit 8810d44ac2f83ad7cc3a2207673c0c34ac8a87f3
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 18:44:02 2021 +0100
+
+    Exported Data Dictionary into JSON
+
+commit 05b349182f2c3f18a92842f3ca4bc3b44956f745
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 18:43:39 2021 +0100
+
+    Initial Commit Map
+
+commit 61bdf6c8770dc7535ffe35ad88f4dee64a0e86fe
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 18:43:19 2021 +0100
+
+    Implemented Spatial Visualisation for Accident Severity
+
+commit d3cdd6f408458cdb26e54896827fb976fe7f8453
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 18:43:03 2021 +0100
+
+    Export Numerical Summaries into JSON
+
+commit 19c708fd7596014ffcd0fe2701300b5c161838ac
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 18:42:19 2021 +0100
+
+    Export Data Dictionaries into JSON
+
+commit 18bb0efa9d81a1e78c71b45e5b6bcc4830363158
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 15:24:13 2021 +0100
+
+    Delete Test Files
+
+commit 9a7172d5f59aa70b94667ac255def257571fd641
+Merge: a4a7dea 534baaa
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 15:23:15 2021 +0100
+
+    Merge branch 'master' of https://github.com/jonas-mika/fyp_project1
+
+commit a4a7dead074088f2ee2c7ed5951016d387ce3de5
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 15:21:42 2021 +0100
+
+    Edit TODOs
+
+commit 534baaadbba9562ed6ba10168643f182d35ceefa
+Author: woodstr <aidan.stocks@gmail.com>
+Date:   Tue Feb 9 15:10:18 2021 +0100
+
+    test
+    
+    test
+
+commit b07e69054d68d9bc83dbf57b095670ab414f8a8d
+Merge: 9d27299 14d744f
+Author: Bondo-PNG <78598935+Bondo-PNG@users.noreply.github.com>
+Date:   Tue Feb 9 14:50:53 2021 +0100
+
+    Merge pull request #2 from jonas-mika/spatial_viz
+    
+    Spatial viz
+
+commit 14d744ff8399b4d7ec9eed8adfcea8f1a50a7c70
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:48:07 2021 +0100
+
+    Initial Commit Spatial Visualisation
+
+commit f11a5ffd162274c1501550fb32baa36dc06110e9
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:47:38 2021 +0100
+
+    Delete Test Files
+
+commit 9d272998f59f3a93a44996ff3805fede746c92cc
+Merge: 621237f 301e0c7
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:41:31 2021 +0100
+
+    Merge pull request #1 from jonas-mika/new_feature
+    
+    New Feature
+
+commit 301e0c7f78c1d29860fa5249db6a9835eb3f05e5
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:38:34 2021 +0100
+
+    New Feature
+
+commit 621237f65c331cc46efce8bac26b612ec38c569b
+Author: malt1114 <78759655+malt1114@users.noreply.github.com>
+Date:   Tue Feb 9 14:31:40 2021 +0100
+
+    Delete Malthe.txt
+
+commit 6734be93201ccd0b0af185efab9337c9a6f941f2
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:30:27 2021 +0100
+
+    Add Mika.txt
+
+commit 21e53d6fa1f8470e68f22638de5d20427ead096d
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:25:58 2021 +0100
+
+    Some Edits
+
+commit 17dc3dca27c04d06d97a6dcac373979f9768c988
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 14:05:11 2021 +0100
+
+    Improvements on Visualisation
+
+commit b3217495b7e8d1c08fbdf6913924ddc1636e42d8
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 11:02:10 2021 +0100
+
+    Improved Naming of Figures
+
+commit c79582b0f012d0d1b29c1a92e85e8ee2d4836262
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 11:01:56 2021 +0100
+
+    Implemented Numerical Data Attributes
+
+commit 2b9696a91015775606ecc35df5dd1d3498bb9dab
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 10:39:40 2021 +0100
+
+    Edit TODOs
+
+commit 4de58a45e3f47f63b3ec7d9b463511d4760f5efa
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 10:36:24 2021 +0100
+
+    Improved Visuals + Histogram Implementation
+
+commit ab925123ce23ce92c7458c8c45be2b61e62415c3
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 10:35:52 2021 +0100
+
+    Accounting for Numerics in Summary
+
+commit ccbae37b79a630fa99c6ad301dc49f3adf1bb471
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 10:17:15 2021 +0100
+
+    Implemented Summary for Numerical Variables
+
+commit 0065a0afd6d90907ed65c7789bff6aafe1c120c3
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 10:16:51 2021 +0100
+
+    Move Summary Code to Old
+
+commit 3dc4c9ba59beb20c5a4b822e8e8d197d4c25550d
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 10:16:41 2021 +0100
+
+    Add TODOs
+
+commit e07c51eb9d9a2465369a56611d32ac1303456460
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Tue Feb 9 09:29:19 2021 +0100
+
+    Moved Overview into DP Notebook
+
+commit 46251304194f0e35d50d3e8a210669c315118667
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 17:25:00 2021 +0100
+
+    Improved Visuals
+
+commit bd214c90e154affeb89487a8936fee822493b304
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:46:45 2021 +0100
+
+    Initial Commit Single Variable Visualisations
+
+commit 353c4d5fc75520520e5e4e9bb484250a8b37ab5a
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:34:50 2021 +0100
+
+    Implemented intelligent parsing of Excel, Improved Visuals and Numerics
+
+commit 50bdc9d88dfa58f8a11ebab7e59199b5fc912b7e
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:34:16 2021 +0100
+
+    Implemented Parsing Excel, Improved Visuals and Numerics
+
+commit fc12d17cfcf373c1352e6fcedf6f6bf470727caa
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:33:12 2021 +0100
+
+    Initial Commit Numerical Summaries
+
+commit 2c685a2e6355fc3e45a2145596a910199649e299
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:33:00 2021 +0100
+
+    Initial Commit of Old Code
+
+commit 69ed0ac3d4dbddf818645638031e7432f522d6af
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:32:43 2021 +0100
+
+    Delete old Excel Lookup
+
+commit 080039c296ffa880be5f74d6f4d7599cd9981272
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Mon Feb 8 13:32:05 2021 +0100
+
+    Fixed Key Error when Parsing Excel
+
+commit 3cea163d8611ed417e449a04db34158c1552127d
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 22:15:11 2021 +0100
+
+    Initial Commit Figures (accidents.csv)
+
+commit b08b4394ed9108352457e86532f0ca7c76281177
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 22:14:45 2021 +0100
+
+    Implemented SV Analysis, Visualisation and Export
+
+commit 39aa3a71a291aad075c7585c86b1738f04e15091
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 20:41:08 2021 +0100
+
+    Initial Commit Single Variable Analysis
+
+commit 928552259f134b2154817f3820840fb3acef5d51
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 20:40:56 2021 +0100
+
+    Initial Commit Processed Data
+
+commit 643929d635465b897b842f8634c97419d7c08071
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 20:40:42 2021 +0100
+
+    Implemented export of processed dataset
+
+commit 97d891780cf772c6dabc6fc0f4122114e6c32bcd
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 12:42:12 2021 +0100
+
+    Importing Data, Filtering for City
+
+commit 0570a896a8a0e63f4da7c28f8286ae18e31a7a41
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Sun Feb 7 12:41:36 2021 +0100
+
+    Renamed Raw Data Files
+
+commit 0068cf97db9d092fabf099ba7d48d4c504ac7228
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 5 13:13:48 2021 +0100
+
+    Adding required Libraries
+
+commit 1bf0bb1d6fdbdc986438864d74f8bfa18764336e
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 5 13:12:33 2021 +0100
+
+    Initial Commit Data Procssing Notebook
+
+commit accfcd5ef4d0ca481a96dc72ed5c36f416d1af09
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 5 13:12:19 2021 +0100
+
+    Initial Commit README
+
+commit f75de28dfef990bd088564fe2db41f16bc387344
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 5 13:02:58 2021 +0100
+
+    Add Gitignore
+
+commit 826609681b394dd3476e3c33c9276006fd1b93a7
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 5 13:02:47 2021 +0100
+
+    Add README
+
+commit 332d10e9cad37697fe37e8fe77e3cf8a8894ead8
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 5 12:58:32 2021 +0100
+
+    Initial Commit
