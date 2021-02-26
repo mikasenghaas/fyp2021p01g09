@@ -1,3 +1,15 @@
+commit 4438cb70422789d8522169be607b30c7c1a31b48
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Fri Feb 26 11:18:42 2021 +0100
+
+    Bugfix for Windows Paths, Added Instructions for Running, Included Task 4 Findings
+
+commit d11ad09be8c3330c326bf27ecdfec866f93853b2
+Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
+Date:   Thu Feb 25 22:47:31 2021 +0100
+
+    Add Gitlog
+
 commit c520acba87989c723eedc4dea3ad047749e90eb6
 Author: Jonas-Mika Senghaas <accounts@jonassenghaas.de>
 Date:   Thu Feb 25 22:41:01 2021 +0100
